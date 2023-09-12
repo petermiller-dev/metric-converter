@@ -1,0 +1,97 @@
+code {
+    background-color: whitesmoke;
+}
+
+section, header {
+    margin: 50px;
+}
+
+/* Reset some default styles for better consistency */
+body, h1, h3, p, code {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set a background color for the entire page */
+body {
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+/* Style the horizontal lines */
+hr {
+  border: 1px solid #ddd;
+}
+
+/* Style the example usage and return sections */
+section {
+  background-color: white;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the example usage and return code elements */
+code {
+  font-family: monospace;
+  background-color: #f0f0f0;
+  padding: 2px 5px;
+  border-radius: 3px;
+}
+
+/* Style the front-end form */
+#testui {
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the form input and submit button */
+#convertForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#convertField {
+  width: 200px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+#convert {
+  padding: 5px 10px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+#convert:hover {
+  background-color: #555;
+}
+
+/* Style the result and JSON elements */
+#result {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+#jsonResult {
+  font-family: monospace;
+  margin-top: 10px;
+}
